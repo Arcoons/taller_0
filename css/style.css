@@ -40,9 +40,23 @@ nav{
 }nav a{
       color: var(--blanco);
       text-decoration: none;
-      padding: 1rem;
-}.logo img{
-      height: 3rem;     
+      padding: 1rem;   
+}nav a:hover{
+      background-color:#0B3860;
+      width: 100%;
+
+}.logo{
+      background-color: var(--negro2);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+.logo img{
+      width: 40%;
+      max-width: 200px;     
+}.logo i{
+      color: var(--blanco);
+      font-size: 2rem;
 }
 
 
@@ -310,6 +324,34 @@ nav{
 
  .slide.activo_slide{
       background: blue;
+ }
+ @media screen and(min-width:768px) {
+      .feature{
+            width: 50%;
+      }
+ }
+ @media screen and(min-width:1024px){
+      nav{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-between;
+            background-color: var(--negro2);
+      }
+      .logo{
+            padding: 1rem;
+      }
+      .logo img{
+            width: 100%;
+            max-width: 180px;
+      }
+      .logo i{
+            display: none;
+      }
+      .menu{
+            background-color: var(--negro2);
+            display: flex;
+      }
  }
 
 
