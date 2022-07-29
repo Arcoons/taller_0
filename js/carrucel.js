@@ -34,3 +34,35 @@ punto.forEach( (cadaPunto, i) => {
         punto[i].classList.add('activo')
     })
 });
+'use strict'
+
+const img = document.querySelector('.slider-img')
+const slide = document.querySelectorAll('.slide')
+
+
+
+
+
+//recorrer todos los puntos
+slide.forEach( (cadaPunto, i) => {
+    //Asignar un click a cada punto
+    slide[i].addEventListener('click',()=>{
+
+        //Guardar la posicion de ese PUNTO
+        let position = i
+        //Calcular el espacio que debe desplazarse el slider
+        let operation = position * -100
+
+        //Movemos el slider
+        img.style.transform = `translateX(${ operation }%)`
+
+        //Recorremos todos los puntos
+        slide.forEach(( cadaPunto, i)=>{
+
+            //Quitamos la clase activo a todos los puntos
+            slide[i].classList.remove('activo_slide')
+        })
+        //Añadir la clase activo al punto que se haceclik
+        slide[i].classList.add('activo_slide')
+    })
+});
