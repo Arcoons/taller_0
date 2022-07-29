@@ -40,9 +40,6 @@ const img = document.querySelector('.slider-img')
 const slide = document.querySelectorAll('.slide')
 
 
-
-
-
 //recorrer todos los puntos
 slide.forEach( (cadaPunto, i) => {
     //Asignar un click a cada punto
