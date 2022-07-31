@@ -104,7 +104,7 @@ a{
       height: 100%;
 }.datos{
     height: 100vh;
-    background-image: url(https://fondosmil.com/fondo/70915.jpg);
+    background-image: url(/img/habitacion.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -115,7 +115,7 @@ a{
     height: 90vh;
     margin-left: 17%;
     border-radius: 1%;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.575);
     display: flex;
     flex-direction: column;
 }.inferior{
@@ -127,6 +127,8 @@ a{
     flex-direction: column;
     align-items: flex-end
 }.foto img{
+    border-radius: 5%;
+    margin-bottom: 5%;
     width: 70%;
 }.formulario{
     width: 75%;
@@ -157,10 +159,9 @@ a{
     font-size: .8em;
     padding-bottom: 10%;
 }.formulario{
+    font-size: 1.3em;
     display: flex;
     flex-wrap: wrap;
-}.formulario label{
-    font-weight: 600;
 }.formulario input{
     width: 100%;
     padding: 2%;
@@ -212,7 +213,7 @@ a{
 }
 
 
-@media screen and (min-width: 0px) and (max-width: 480px){
+@media screen and (min-width: 10px) and (max-width: 768px){
     .logo .desktop{
         display: none;
     }.logo .mobile{
@@ -244,8 +245,57 @@ a{
     }.cerrar a:hover{
         background: var(--azuloscuro);
         width: 100%;
-    }.container{
+    }.nombre{
+      margin-bottom: 2%;
+      margin-left: 28%;
+    }
+    .container{
+      margin-left: 20%;
         display: flex;
         flex-direction: column;
+        height: 100%;
+    }.formulario{
+      margin-left: 25%;
+    }.form{
+      width: 100%;
+      font-size: 0.8em;
+      display: flex;
+      flex-direction: column;
+      
+    }.datos{
+      height: 100%;
+    }.inferior{
+      display: flex;
+      flex-direction: column;
+    }.foto{
+      margin-left: 35%;
+    }.foto img{
+      width: 100%;
+
+    }.iconos{
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 10em;
+      margin-bottom: 10%;
+    }.contrasena{
+     
+      font-size: 0.8em;
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10%;
+    }.formez input{
+      margin-top: 5%;
+      margin-bottom: 10%;
+
+    }.uno{
+      margin-left: -30%;
+    }.formderech input{
+      margin-top: 5%;
+      margin-bottom: 8%;
+    }.dos{
+      margin-top: -1%;
+    }.dos{
+      margin-left: -30%;
     }
 }
