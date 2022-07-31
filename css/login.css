@@ -61,7 +61,7 @@ i
     margin-bottom: 1rem;
     margin-top: 2rem;
 }
-.iniciosesion
+.sesion
 {
     display: flex;
     flex-direction: column;
@@ -81,7 +81,7 @@ input
     border-radius: 2px;
     box-shadow: 0px 1px rgba(97, 97, 97,500);
 }
-#boton
+#inicia
 {
     font-size: 1rem;
     color: #fff;
@@ -107,11 +107,11 @@ p
     font-weight: bolder;
     text-shadow: -1px 1px rgb(153, 153, 153);
 }
-#logo img
+#icono img
 {
     width:10rem;
 }
-#logo
+#icono
 {
     display: flex;
     justify-content: flex-start;
@@ -134,11 +134,11 @@ p
         color: white;
         padding-top: 5rem;
     }
-    #logo img
+    #icono img
     {
         width:10rem;
     }
-    #logo
+    #icono
     {
         display: flex;
         justify-content: flex-start;
@@ -199,7 +199,7 @@ p
         border-radius: 2px;
         box-shadow: 0px 1px rgba(97, 97, 97,500);
     }
-    #boton
+    #inicia
     {
         font-size: 1rem;
         color: #fff;
@@ -227,15 +227,15 @@ p
     {
         background: url(../img/habitacion.jpeg) no-repeat;
         background-size: cover;
-        height: 100vh;
+        height: 1200px;
         color: white;
         padding-top: 5rem;
     }
-    #logo img
+    #icono img
     {
         width:10rem;
     }
-    #logo
+    #icono
     {
         display: flex;
         justify-content: flex-start;
@@ -243,24 +243,25 @@ p
     }
     section
     {
-        padding-top: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
         opacity: 0.82;
+        width: 300px;
         padding-bottom: 2rem;
         border-radius: 2px;
         margin-left: auto;
         margin-right: auto;
-        padding: 1%;
+        background-size: cover;
+        margin-top: 17%;
+        height: 30%;
     }
     .login
     {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 1%;
-        background: url(../img/login.jpeg) no-repeat;
+        margin-top: -7%;
     }
     i
     {
@@ -295,7 +296,7 @@ p
         border-radius: 2px;
         box-shadow: 0px 1px rgba(97, 97, 97,500);
     }
-    #boton
+    #inicia
     {
         font-size: 1rem;
         color: #fff;
@@ -309,16 +310,16 @@ p
         box-shadow: 0px 1px rgba(97, 97, 97,500);
     }
     p a
-    {
-        text-decoration: none;
-        color: var(--negro2);
-    }
-    p
-    {
-        font-family: 'Roboto', sans-serif;
-        font-size: 0.8rem ;
-        text-align: center;
-        font-weight: bolder;
-        text-shadow: -1px 1px rgb(153, 153, 153);
-    }
+{
+    text-decoration: none;
+    color: var(--negro2);
+}
+p
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem ;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: -1px 1px rgb(153, 153, 153);
+}
 }
