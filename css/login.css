@@ -130,7 +130,7 @@ p
     {
         background: url(../img/habitacion.jpeg) no-repeat;
         background-size: cover;
-        height: 1200px;
+        height: 580px;
         color: white;
         padding-top: 5rem;
     }
@@ -149,15 +149,14 @@ p
         display: flex;
         flex-direction: column;
         justify-content: center;
+        background: url(../img/login.jpeg) no-repeat;
         opacity: 0.82;
         width: 300px;
-        padding-bottom: 2rem;
+        height: 60%;
         border-radius: 2px;
         margin-left: auto;
         margin-right: auto;
-        background-size: cover;
-        margin-top: 17%;
-        height: 30%;
+        padding: 1%;
     }
     .login
     {
@@ -227,7 +226,7 @@ p
     {
         background: url(../img/habitacion.jpeg) no-repeat;
         background-size: cover;
-        height: 1200px;
+        height: 580px;
         color: white;
         padding-top: 5rem;
     }
@@ -244,17 +243,17 @@ p
     section
     {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        opacity: 0.82;
-        width: 300px;
-        padding-bottom: 2rem;
-        border-radius: 2px;
-        margin-left: auto;
-        margin-right: auto;
-        background-size: cover;
-        margin-top: 17%;
-        height: 30%;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.82;
+    width: 300px;
+    padding-bottom: 2rem;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    margin-top: 10%;
+    height: 57%;
     }
     .login
     {
