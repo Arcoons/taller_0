@@ -140,7 +140,7 @@ nav{
 }.mapa {
       display: flex;
       justify-content: center;
-      padding: 1rem;
+      padding: 2rem;
 }.mapa iframe{
       width: 100%;
 }.inf h3{

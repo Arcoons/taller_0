@@ -116,6 +116,10 @@ p
     display: flex;
     justify-content: flex-start;
     padding: 1rem;
+}#inicia a
+{
+    text-decoration: none;
+    color: var(--blanco);
 }
 
 
