@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script src="https://kit.fontawesome.com/6131ecdde6.js" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="/css/Dashboard.css">
-      <title>Hotelia</title>
+      <title>Datos Dashboard</title>
 </head>
 <body>
             <section class="menu">
@@ -26,10 +26,10 @@
                   </div>
                   <div class="opciones"> 
                         <div class="mrd">
-                        <a href="" class="ho"><i class="fa-solid fa-bed" id="menu"></i><p>Habitaciones</p></a>
-                        <a href="" class="ho"><i class="fa-solid fa-bell-concierge" id="menu"></i><p>Reservas</p></a>
-                        <a href="" class="ho"><i class="fa-solid fa-bed" id="menu"></i><p>Habitaciones</p></a>
-                        <a href="" class="ho"><i class="fa-solid fa-bell-concierge" id="menu"></i><p>Habitaciones</p></a>
+                        <a href="/listaHabi.html" class="ho"><i class="fa-solid fa-bed" id="menu"></i><p>Habitaciones</p></a>
+                        <a href="#" class="ho"><i class="fa-solid fa-bell-concierge" id="menu"></i><p>Reservas</p></a>
+                        <a href="/listaHabi.html" class="ho"><i class="fa-solid fa-bed" id="menu"></i><p>Habitaciones</p></a>
+                        <a href="#" class="ho"><i class="fa-solid fa-bell-concierge" id="menu"></i><p>Reservas</p></a>
                         </div>
                         
                         <div class="cerrar">
@@ -37,84 +37,106 @@
                         </div>
                   </div>              
             </section>
-
-            <div class="datos">
-                <div class="container">
-                    <div class="nombre">
-                        <h2>Bienvenido, Angie Vargas</h2>
-                    </div>
-                    <div class="inferior">
-                        <div class="foto">
-                            <img src="/img/p2.jpeg" alt="">
-                            <div class="iconos">
-                                <i class="fa-solid fa-file-arrow-up"></i>
-                                <i class="fa-solid fa-upload"></i>
-                            </div>
-                            <div class="contrasena">
-                                <a href="" class="contrasena"><h2>Cambiar contraseña</h2></a>
-                            </div>
+            <section class="datos">
+                  <div class="formulario">
+                        <div class="titulo">
+                              <h1>Bienvenido Usuario</h1> 
                         </div>
-                        <div class="formulario">
-                            <div class="form">
-                                <div class="formez">
-                                    <label for="">Tipo de documento</label>
-                                    <input type="text" placeholder="Cedula de ciudadania">
-                                    <label for="">Nombres</label>
-                                    <input type="text" placeholder="Angie Camila">
-                                    <label for="">Fecha de nacimiento</label>
-                                    <input type="text" placeholder="10/08/1976">
-                                    <label for="">Genero</label>
-                                    <div class="generos">
-                                        <input type="radio" placeholder="" class="genero">
-                                        <label for="">Mujer</label>
-                                        <input type="radio" placeholder="" class="genero">
-                                        <label for="">Hombre</label>
-                                        <input type="radio" placeholder="" class="genero">
-                                        <label for="">Otro</label>
+                        <div class="info">
+                              <div class="logo-img">
+                                    <img src="/img/p2.jpeg" >
+                                    <div class="carga">
+                                          <div id="log-des"><i class="fa-solid fa-file-arrow-up"></i></div>
+                                          <div id="log1-des"><i class="fa-solid fa-upload"></i></div>
                                     </div>
-                                    <label for="">Email</label>
-                                    <input type="email" placeholder="">
-                                    <button>Actualizar</button>
-                                    <table>
-                                          <ul class="uno">
-                                                <li >
-                                                      <label for="">Contraseña</label>
-                                                      <input type="password" placeholder="">
+                                    <button>Cambiar Contraseña</button>
+                              </div>
+                              <div class="form">
+                                    <div class="doc">
+                                          <div id="inf">
+                                                <label for="tip-doc">Tipo de documento</label>
+                                                <input type="text" name="tip-doc" placeholder="CC">
+                                          </div>
+                                          <div id="inf">
+                                                <label for="num-doc">Número documento</label>
+                                                <input type="text" name="num-doc" placeholder="10000000">
 
-                                                </li>
-                                                
-                                                
-                                          </ul>
+                                          </div>
                                           
                                           
-                                    </table>
-                                    
+                                    </div>
+                                    <div class="nom">
+                                          <div id="inf">
+                                                <label for="nombre">Nombres</label>
+                                                <input type="text" name="nombre" placeholder="Nombre..">
+                                          </div>
+                                          <div id="inf">
+                                                <label for="Apellido">Apellidos</label>
+                                                <input type="text" name="Apellido" placeholder="Apellidos..">
 
-                                    
-                                    <button>cambiar</button>
-                                </div>
-                                <div class="formderech">
-                                    <label for="" class="datosdere1">Numero de documento</label>
-                                    <input type="text" placeholder="1025417456" class="datosdere11">
-                                    <label for="" class="datosdere2">Apellidos</label>
-                                    <input type="text" placeholder="Vargas Pinzon" class="datosdere22">
-                                    <label for="" class="datosdere3">Pais de origen</label>
-                                    <input type="text" placeholder="Colombia" class="datosdere33">
-                                    <label for="" class="datosdere4">Telefono de contacto</label>
-                                    <input type="number" placeholder="0000000" class="datosdere44">
-                                    <table>
-                                          <ul class="dos">
-                                                <li>
-                                                      <label for="">confirmar contraseña</label>
-                                                      <input type="password" placeholder="">
-                                                </li>
-                                          </ul>
-                                    </table>
-                                </div>
-                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="origen">
+
+                                          <div id="inf">
+                                                <label for="fecha">Fecha nacimiento</label>
+                                                <input type="text" name="fecha" placeholder="DD/MM/YY">
+                                          </div>
+                                          <div id="inf">
+                                                <label for="origen">País de origen</label>
+                                                <input type="text" name="origen" placeholder="País..">
+
+                                          </div>
+                                    </div>
+                                    <div class="genero">
+                                          <div id="inf">
+                                                <div class="radio">
+                                                <label for="fecha">Género</label>
+                                                <input type="radio" name="genero">Mujer
+                                                <input type="radio" name="genero">Hombre
+                                                <input type="radio" name="genero">Otro
+                                                </div>
+                                          </div>
+                                          <div id="inf">
+                                                <label for="tel">Teléfono de contacto</label>
+                                                <input type="text" name="tel" placeholder="Teléfono">
+
+                                          </div>
+
+                                    </div>
+                                    <div class="act">
+                                          <div class="inf">
+                                                <button>Actualizar</button>
+                                          </div>
+
+                                    </div>
+                                    <div class="contra">
+                                          <div id="inf">
+                                                <label for="password">Contraseña</label>
+                                                <input type="password" name="password">
+                                          </div>
+                                          <div id="inf">
+                                                <label for="passwordd">Confirmar contraseña</label>
+                                                <input type="password" name="passwordd">
+
+                                          </div>
+
+                                    </div>
+                                    <div class="cambio">
+                                          <div class="inf">
+                                                <button>Cambiar</button>
+                                          </div>
+
+                                    </div>
+
+                              </div>
+
                         </div>
-                    </div>
-                </div>
-            </div>
+                        
+                                  
+                  </div>
+                  
+                        
+            </section>
 </body>
 </html>
