@@ -107,7 +107,7 @@ nav a:hover {
 }
 
 #banner {
-    background-image: url('/img/slide1.jpg');
+    background-image: url('../img/slide1.jpg');
     background-size: cover;
     background-position: 50% 50%;
     min-height: 400px;
@@ -132,7 +132,7 @@ nav a:hover {
 }#hijo{
     display: none;
 }#feature{
-    background: url(/img/bg-features.png);
+    background: url('../img/bg-features.png');
     background-size: cover;
     grid-area: feature;
     display: grid;
@@ -252,7 +252,7 @@ nav a:hover {
     height: 100%;
     display: flex;
     justify-content: flex-start;
-    background: url(/img/Group\ 200.svg);
+    background: url('../img/Group\ 200.svg');
     background-size: cover;
 
 }#opinion{
@@ -298,7 +298,7 @@ nav a:hover {
         height: 100%;
         display: flex;
         justify-content: flex-start;
-        background: url(/img/Group\ 200.svg);
+        background: url('../img/Group\ 200.svg');
         background-size: cover;
     
     }#opinion{
@@ -398,7 +398,7 @@ nav a:hover {
     height: 100%;
     display: flex;
     justify-content: flex-start;
-    background: url(/img/Group\ 200.svg);
+    background: url('../img/Group\ 200.svg');
     background-size: cover;
 
 }#opinion{

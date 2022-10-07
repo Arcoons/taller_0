@@ -57,7 +57,7 @@ ul{
       justify-content: space-between;
       padding: 7%;
       height: 30%;  
-     background: url(/img/foto.jpeg);
+     background: url('../img/foto.jpeg');
      background-size: cover;
 }.logo img{
       width: 60%;   
@@ -104,7 +104,7 @@ a{
       width: 90%;
       height: 100%;
 }.datos{   
-    background: url(/img/hotels.jpg);
+    background: url('../img/hotels.jpg');
     background-size: cover;
     height: 1007px;
     display: flex;
