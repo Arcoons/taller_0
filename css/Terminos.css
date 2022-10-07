@@ -24,7 +24,7 @@ body{
   h1,h2,h3,h4,h5{
     font-family: 'Marcellus', serif;
 }#grid-container{
-      background: url(/img/habitacion1.jpg);
+      background: url(../img/habitacion1.jpg);
       background-size: cover;
       height: 100vh;
       display: grid;

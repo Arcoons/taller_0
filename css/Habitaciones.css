@@ -21,7 +21,7 @@ body{
       display: grid;
       grid-template-columns: repeat(40, 1fr);
       grid-template-rows: repeat(40, 1fr);
-      background: url(/img/habitacion2.jpg);
+      background: url(../img/habitacion2.jpg);
       background-size: cover;
 }.opciones{
       background-color: rgb(51, 51, 71) ;
@@ -41,7 +41,7 @@ body{
       display: flex;
       flex-direction: column;
       align-items: center;
-      background: url(/img/foto.jpeg);
+      background: url(../img/foto.jpeg);
       background-size: cover;
 }.desc{
       width: 50%;
@@ -167,7 +167,7 @@ body{
             display: grid;
             grid-template-columns: repeat(40, 1fr);
             grid-template-rows: repeat(40, 1fr);
-            background: url(/img/habitacion2.jpg);
+            background: url(../img/habitacion2.jpg);
             background-size: cover;
       }.formulario{
             background-color: rgba(255, 255, 255, 0.651);

@@ -35,7 +35,7 @@ body{
       grid-row: 1 / 51;
       grid-column: 8 / 51;
 }.encabezado{
-      background: url(/img/foto.jpeg);
+      background: url(../img/foto.jpeg);
      background-size: cover;
       display: flex;
       flex-direction: column;
